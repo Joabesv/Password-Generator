@@ -1,4 +1,36 @@
-<meta
-  http-equiv="refresh"
-  content="0; url=https://Joabesv.github.io/public/index.html"
-/>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Senhas</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Gerador de senhas</h1>
+      <div class="generated-pwd">Selecione as opções</div>
+
+      Quantidade de caracteres:
+      <input
+        value="20"
+        type="number"
+        class="qtd-characters"
+        min="1"
+        max="50"
+      /><br />
+      Adicionar Letras Maiúsculas
+      <input type="checkbox" class="check-maisc" checked /><br />
+      Adicionar Letras Minúsculas
+      <input type="checkbox" class="check-minisc" checked /><br />
+      Adicionar Números
+      <input type="checkbox" class="check-num" /><br />
+      Adicionar símbolos
+      <input type="checkbox" class="check-simb" /><br />
+
+      <button class="generate-pwd">Gerar Senha</button>
+    </section>
+
+    <script src="public/assets/js/bundle.js"></script>
+  </body>
+</html>
